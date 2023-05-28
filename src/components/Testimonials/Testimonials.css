@@ -1,0 +1,63 @@
+.t-wrapper{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 6rem 0;
+    gap: 2rem;
+}
+
+
+.t-header span{
+    color: var(--black);
+    font-size: 2rem;
+    font-weight: bold;
+}
+.t-header span > span{  
+    color: var(--orange);
+}
+
+
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 30rem;
+    height: 12rem;
+    padding: 2rem;
+    align-items: center;
+    background: rgba(255, 2555, 255, 0.25);
+    border: 7px solid var(--blueCard);
+    box-shadow: var(--boxShadow);
+    border-radius: 20px;
+}
+
+.testimonial img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.testimonial p{
+    color: var(--gray);
+}
+
+.t-wrapper .swiper{
+    width: 100%;
+    height: 70%;
+}
+
+.t-wrapper .swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-button-next,.swiper-button-prev{
+    color: var(--black);
+}
+
+.swiper-pagination-bullet-active{
+    background-color: var(--orange);
+}

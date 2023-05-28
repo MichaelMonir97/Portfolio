@@ -1,0 +1,19 @@
+.floating{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: var(--boxShadow);
+    border-radius: 14px;
+    background-color: white;
+    height: 4.5rem;
+    padding: 0 28px 0 0;
+}
+
+.floating > img{
+    transform: scale(0.4);
+}
+
+.floating > span{
+    font-family: inherit;
+    font-size: 16px;
+}

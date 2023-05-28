@@ -1,0 +1,87 @@
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60vh;
+}
+
+.contact .c-left span{
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: block;
+}
+
+.contact .c-left > :first-child{
+    color: var(--black);
+}
+
+.contact .c-left > :last-child{
+    color: var(--orange);
+}
+
+.contact .c-right form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contact .c-right form > *{
+    border: 1px solid var(--orange);
+    margin-bottom: 20px ;
+}
+.contact .c-right form > *:focus{
+    outline: none;
+}
+.contact .c-right form > input{
+    padding: 0.3em;
+    height: 2em;
+    width: 20rem;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.contact .c-right form textarea{
+    width: 20rem;
+    height: 150px;
+    resize: none;
+}
+
+.contact .c-right form > input::placeholder{
+    transition: 0.4s ease;
+}
+.contact .c-right form > input:focus::placeholder{
+    opacity: 0;
+}
+
+.thx{
+    color: green;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+
+.thx:focus{
+    outline: none;
+}
+
+
+@media screen and (max-width:768px) {
+    .contact{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .contact .c-right form{
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:425px) {
+
+    .contact .c-right form > input{
+        width: 14rem;
+    }
+
+    .contact .c-right form textarea{
+        width: 14rem;
+    }
+}

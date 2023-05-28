@@ -1,0 +1,113 @@
+.services{
+    margin-top: 8rem;
+    margin-bottom: 13rem;
+    display: flex;
+    height: 90vh;
+    position: relative;
+}
+
+.s-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.s-left > :nth-child(1){
+    font-size: 2.5rem;
+    color: var(--black);
+    font-weight: bold;
+}
+
+.s-left > :nth-child(2){
+    font-size: 2.3rem;
+    color: var(--orange);
+    font-weight: bold;
+}
+.s-left p{
+    color: var(--gray);
+    width: 80%;
+    margin: 25px 0;
+}
+.s-btn{
+    text-decoration: none;
+}
+
+.s-left .blur{
+    width: 300px;
+    height: 300px;
+    filter: blur(50px);
+    left: -110px;
+    top: 50%;
+}
+
+.s-right{
+    position: relative;
+}
+
+.s-right > *{
+    position: absolute;
+    transition: var(--trans);
+}
+
+
+.s-right .Glasses{
+    top: 12rem;
+    left: -8rem;
+}
+
+.s-right .Glasses.show{
+    left: -4rem;
+}
+
+
+.s-right .heart{
+    left: 15rem;
+}
+
+.s-right .heart.show{
+    left: 12rem;
+}
+
+.s-right .humble{
+    top: 25rem;
+    left: 12rem;
+}
+
+.s-right .humble.show{
+    top: 19rem;
+}
+
+.s-blur{
+    background: var(--purple);
+    width: 250px;
+    height: 250px;
+    filter: blur(50px);
+    left: 14rem;
+    top: 8rem;
+}
+
+@media screen and (max-width: 1150px)  {
+    .services{
+        flex-direction: column;
+        align-items: center;
+        gap: 5rem;
+        height: 66rem;
+        padding: 0;
+    }
+
+    .s-left{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .s-right{
+        display: flex;
+        flex-direction: column;
+        gap: 17rem;
+    }
+
+    .s-right > *{
+        position: static;
+    }
+}

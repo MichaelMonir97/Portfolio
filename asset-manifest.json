@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.b0e3a4f0.css",
+    "main.js": "/Portfolio/static/js/main.41c8bf4f.js",
+    "static/media/Michael Monir-CV.pdf": "/Portfolio/static/media/Michael Monir-CV.35d53d0bfd6b73ac38cb.pdf",
+    "static/media/resturant.jpg": "/Portfolio/static/media/resturant.940e9ea9ad9ebb4262ed.jpg",
+    "static/media/casper.jpg": "/Portfolio/static/media/casper.0fd0b1b59891038f76dd.jpg",
+    "static/media/movie.jpg": "/Portfolio/static/media/movie.d4463275b6ffb1abe361.jpg",
+    "static/media/anime.jpg": "/Portfolio/static/media/anime.2e14e374c2ff8dfdb73e.jpg",
+    "static/media/portfolio.jpg": "/Portfolio/static/media/portfolio.de7e805624bd4548b00e.jpg",
+    "static/media/dashboard.jpg": "/Portfolio/static/media/dashboard.8587769542865ae18f19.jpg",
+    "static/media/todo.jpg": "/Portfolio/static/media/todo.0345eb402098941d2cf3.jpg",
+    "static/media/client2.png": "/Portfolio/static/media/client2.fe97a84f700b1ade1cbf.png",
+    "static/media/teddog.jpg": "/Portfolio/static/media/teddog.df279146eb70119a427f.jpg",
+    "static/media/koko mask.png": "/Portfolio/static/media/koko mask.a163025b54653d62a86f.png",
+    "static/media/boy.png": "/Portfolio/static/media/boy.5ca4b670a32b71681d2c.png",
+    "static/media/client1.png": "/Portfolio/static/media/client1.e4c78040e5f77b6240fc.png",
+    "static/media/client3.png": "/Portfolio/static/media/client3.ad7221d11ba662cf9cf4.png",
+    "static/media/drum.jpg": "/Portfolio/static/media/drum.9346ec8fd2bc6cfa14c9.jpg",
+    "static/media/simon.jpg": "/Portfolio/static/media/simon.c9e46f8840b1302cc769.jpg",
+    "static/media/glassesimoji.png": "/Portfolio/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/thumbup.png": "/Portfolio/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/humble.png": "/Portfolio/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/heartemoji.png": "/Portfolio/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/wave.png": "/Portfolio/static/media/wave.fdfef4069ad90f610990.png",
+    "static/media/crown.png": "/Portfolio/static/media/crown.dbe416beae9b49b842ab.png",
+    "static/media/Vector2.png": "/Portfolio/static/media/Vector2.28db5bfd58081dd1df1b.png",
+    "static/media/glasses.png": "/Portfolio/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "index.html": "/Portfolio/index.html",
+    "main.b0e3a4f0.css.map": "/Portfolio/static/css/main.b0e3a4f0.css.map",
+    "main.41c8bf4f.js.map": "/Portfolio/static/js/main.41c8bf4f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0e3a4f0.css",
+    "static/js/main.41c8bf4f.js"
+  ]
+}

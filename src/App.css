@@ -21,7 +21,6 @@ body.dark-mode{
     overflow: hidden;
     font-weight: bold;
     color: var(--black);  
-    /* background-color: red;   */
 }
 
 

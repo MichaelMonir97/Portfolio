@@ -6,7 +6,6 @@ import Instgram from "../../img/instagram.png";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
 import Koko from "../../img/koko mask.png";
-import Boy from "../../img/boy.png";
 import ThumbUp from "../../img/thumbup.png";
 import Crown from "../../img/crown.png";
 import GlassEmoji from "../../img/glassesimoji.png";
@@ -16,14 +15,6 @@ import Typed from "typed.js";
 const Intro = () => {
   const name = useRef(null);
   useEffect(() => {
-    const typed = new Typed(name.current, {
-      strings: ["Michael Monir", "A Front End Developer"],
-      loop: true,
-      typeSpeed: 40,
-      backSpeed: 50,
-      smartBackspace: true,
-      showCursor: true,
-    });
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) =>
         entry.target.classList.toggle("show", entry.isIntersecting)
@@ -32,7 +23,18 @@ const Intro = () => {
 
     const elements = document.querySelectorAll(".effect");
     elements.forEach((el) => observer.observe(el));
-  });
+  }, []);
+
+  useEffect(() => {
+    const typed = new Typed(name.current, {
+      strings: ["Michael Monir", "A Front End Developer"],
+      loop: true,
+      typeSpeed: 40,
+      backSpeed: 50,
+      smartBackspace: true,
+      showCursor: true,
+    });
+  }, []);
   return (
     <div className="intro" id="Intro">
       <div className="i-left">

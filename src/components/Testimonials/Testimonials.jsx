@@ -1,6 +1,7 @@
 import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import { currentMode } from "../../App";
 import Client1 from "../../img/client1.png";
 import Client2 from "../../img/client2.png";
 import Client3 from "../../img/client3.png";

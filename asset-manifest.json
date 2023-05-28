@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.b0e3a4f0.css",
-    "main.js": "/Portfolio/static/js/main.41c8bf4f.js",
+    "main.css": "/Portfolio/static/css/main.edc5eb43.css",
+    "main.js": "/Portfolio/static/js/main.f705933d.js",
     "static/media/Michael Monir-CV.pdf": "/Portfolio/static/media/Michael Monir-CV.35d53d0bfd6b73ac38cb.pdf",
     "static/media/resturant.jpg": "/Portfolio/static/media/resturant.940e9ea9ad9ebb4262ed.jpg",
     "static/media/casper.jpg": "/Portfolio/static/media/casper.0fd0b1b59891038f76dd.jpg",
@@ -13,7 +13,6 @@
     "static/media/client2.png": "/Portfolio/static/media/client2.fe97a84f700b1ade1cbf.png",
     "static/media/teddog.jpg": "/Portfolio/static/media/teddog.df279146eb70119a427f.jpg",
     "static/media/koko mask.png": "/Portfolio/static/media/koko mask.a163025b54653d62a86f.png",
-    "static/media/boy.png": "/Portfolio/static/media/boy.5ca4b670a32b71681d2c.png",
     "static/media/client1.png": "/Portfolio/static/media/client1.e4c78040e5f77b6240fc.png",
     "static/media/client3.png": "/Portfolio/static/media/client3.ad7221d11ba662cf9cf4.png",
     "static/media/drum.jpg": "/Portfolio/static/media/drum.9346ec8fd2bc6cfa14c9.jpg",
@@ -27,11 +26,11 @@
     "static/media/Vector2.png": "/Portfolio/static/media/Vector2.28db5bfd58081dd1df1b.png",
     "static/media/glasses.png": "/Portfolio/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
     "index.html": "/Portfolio/index.html",
-    "main.b0e3a4f0.css.map": "/Portfolio/static/css/main.b0e3a4f0.css.map",
-    "main.41c8bf4f.js.map": "/Portfolio/static/js/main.41c8bf4f.js.map"
+    "main.edc5eb43.css.map": "/Portfolio/static/css/main.edc5eb43.css.map",
+    "main.f705933d.js.map": "/Portfolio/static/js/main.f705933d.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0e3a4f0.css",
-    "static/js/main.41c8bf4f.js"
+    "static/css/main.edc5eb43.css",
+    "static/js/main.f705933d.js"
   ]
 }

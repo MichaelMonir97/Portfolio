@@ -74,36 +74,42 @@
 }
 .i-right > :nth-child(4){
     top: -6%;
-    left: -17%;
+    left: -1%;
     width: 150px;
-    transition: var(--trans);
+    opacity: 0;
+    transform: translateX(-80px);
+    transition:transform var(--trans), opacity var(--trans);
 }
 .i-right > :nth-child(4).show{
-    transition-delay:600ms ;
+    transform: translateX(0);
     opacity: 1;
-    left: -6%;
+    
 }
 
 
 .i-right .crown{
     top: 24%;
-    left: 80%;
-    transition: var(--trans);
+    left: 68%;
+    opacity: 0;
+    transform: translateX(80px);
+    transition:transform var(--trans), opacity var(--trans);
 }
 .i-right .crown.show{
-    transition-delay:200ms ;
-    left: 68%;
+    opacity: 1;
+    transform: translateX(0);
 }
 
 .i-right .ThumbUp{
-    left: -17%;
+    opacity: 0;
+    left: 0.5rem;
     top: 18rem;
-    transition: var(--trans);
+    transform: translateX(-50px);
+    transition:transform var(--trans), opacity var(--trans);
 }
 
 .i-right .ThumbUp.show{
-    transition-delay:400ms ;
-    left: 0.5rem;
+    opacity: 1;
+    transform: translateX(0);
 }
 
 .blur{
@@ -115,10 +121,10 @@
 }
 
 .blur.drk{
-    background-color: rgb(238, 210, 255);
+    background-color: #eed2ff;
 }
 .blur.blue{
-    background-color: rgb(193, 245, 255);
+    background-color: #c1f5ff;
 }
 
 

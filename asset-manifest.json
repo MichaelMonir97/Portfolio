@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.edc5eb43.css",
+    "main.css": "/Portfolio/static/css/main.ea86470a.css",
     "main.js": "/Portfolio/static/js/main.f705933d.js",
     "static/media/Michael Monir-CV.pdf": "/Portfolio/static/media/Michael Monir-CV.35d53d0bfd6b73ac38cb.pdf",
     "static/media/resturant.jpg": "/Portfolio/static/media/resturant.940e9ea9ad9ebb4262ed.jpg",
@@ -26,11 +26,11 @@
     "static/media/Vector2.png": "/Portfolio/static/media/Vector2.28db5bfd58081dd1df1b.png",
     "static/media/glasses.png": "/Portfolio/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
     "index.html": "/Portfolio/index.html",
-    "main.edc5eb43.css.map": "/Portfolio/static/css/main.edc5eb43.css.map",
+    "main.ea86470a.css.map": "/Portfolio/static/css/main.ea86470a.css.map",
     "main.f705933d.js.map": "/Portfolio/static/js/main.f705933d.js.map"
   },
   "entrypoints": [
-    "static/css/main.edc5eb43.css",
+    "static/css/main.ea86470a.css",
     "static/js/main.f705933d.js"
   ]
 }
